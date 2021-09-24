@@ -305,14 +305,14 @@ a:focus {
 }
 
 .brand_img-box {
-  height: 310px;
+  height: 320px;
   background-size: cover;
   background-position: center;
   position: relative;
 }
 
 .brand_img-box.item-1 {
-  background-image: url(../images/diary2.jpeg);
+  background-image: url(../images/diary2-removebg-preview.png);
 }
 
 .brand_img-box.item-2 {
@@ -336,7 +336,70 @@ a:focus {
 .brand_img-box.item-7 {
   background-image: url(../images/pens3.jpeg);
 }
+.brand_img-box.item-9 {
+  background-image: url(../images/calender1.jpeg);
+}
+.brand_img-box.item-10 {
+  background-image: url(../images/calender2.jpeg);
+}
 
+/* === BASE HEADING === */ 
+
+h1 {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  font-size: 40px;
+  color: #080808;
+  -webkit-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+}
+
+h1 span {
+  display: block;
+  font-size: 0.5em;
+  line-height: 1.3;
+}
+h1 em {
+  font-style: normal;
+  font-weight: 600;
+}
+
+/* Style 8
+   ----------------------------- */
+/* === HEADING STYLE #3 === */
+.three h1 {
+  font-size: 28px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 1.5em;
+  padding-bottom: 15px;
+  position: relative;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.three h1:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 5px;
+  width: 55px;
+  background-color: #111;
+}
+.three h1:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 2px;
+  height: 1px;
+  width: 95%;
+  max-width: 255px;
+  background-color: #333;
+}
 
 .brand_img-box {
   display: -webkit-box;
@@ -695,5 +758,18 @@ a:focus {
   color: #fbfcfd;
 }
 
-/* end footer section*/
-/*# sourceMappingURL=style.css.map */
+#pdts{
+  width: 17rem;height: 350px;margin-right: 10px;
+
+}
+
+@media (max-width: 768px) {
+  #pdts{
+    height: 400px;
+    width:320px;
+    display:block;
+    margin:0 auto;
+    margin-bottom:30px;
+  
+  }
+}
