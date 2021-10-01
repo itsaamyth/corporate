@@ -35,10 +35,14 @@ body {
 
 /*header section*/
 .hero_area {
-  height: 98vh;
-  background-color: #b5caee;
+  /* height: 98vh; */
+  background-color: white;
 }
 
+#banner{
+  height: 100%;
+  width: 100%;
+}
 .sub_page .hero_area {
   height: auto;
 }
@@ -118,28 +122,27 @@ a:focus {
   font-size: 20px;
   font-weight: 700;
   color: #191919;
-  margin-top: 5px;
 }
 
 .custom_nav-container {
   z-index: 99999;
-  padding: 15px 0;
 }
 
 .custom_nav-container .navbar-toggler {
   outline: none;
 }
 
-.custom_nav-container .navbar-toggler .navbar-toggler-icon {
+/* .custom_nav-container .navbar-toggler .navbar-toggler-icon {
   background-image: url(../images/menu.png);
+  background-color: white;
   background-size: 55px;
-}
+} */
 
 /*end header section*/
 /* slider section */
-.slider_section {
+/* .slider_section {
   padding-top: 8%;
-}
+} */
 
 .slider_item-box {
   width: 100%;
