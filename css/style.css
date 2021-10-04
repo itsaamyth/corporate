@@ -284,7 +284,7 @@ a:focus {
 
 .brand_section {
   text-align: center;
-  background-color: #c1dcf9;
+  background-color: #f0f3f5;
 }
 
 .brand_section h3 {
@@ -315,7 +315,7 @@ a:focus {
 }
 
 .brand_img-box.item-1 {
-  background-image: url(../images/diary2-removebg-preview.png);
+  background-image: url(../images/diary3-removebg-preview.png);
 }
 
 .brand_img-box.item-2 {
@@ -344,6 +344,16 @@ a:focus {
 }
 .brand_img-box.item-10 {
   background-image: url(../images/calender2.jpeg);
+}
+
+#pdtImg{
+  height: 230px;
+  width: 200px;
+  display:block;
+  margin:0 auto;
+  padding:10px;
+  margin-bottom:20px;
+  margin-top:20px;
 }
 
 /* === BASE HEADING === */ 
@@ -763,6 +773,7 @@ h1 em {
 
 #pdts{
   width: 17rem;height: 350px;margin-right: 10px;
+  margin-left:20px;margin-bottom:20px;margin-top:10px;
 
 }
 
