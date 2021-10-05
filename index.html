@@ -197,32 +197,72 @@
     <section class="brand_section layout_padding2">
       <div class="container">
         <div class="brand_heading" >
-          <h2 style="color:black;font-weight:normal;">
+          <h2 style="color:black;font-weight:bold;text-transform: uppercase;">
             Our Products
           </h2>
           <p >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit odit blanditiis voluptate cum, quos illo libero, in quaerat minima laudantium molestias, ipsam neque? Velit, officiis beatae similique amet ullam modi.
+           With having more than 5+ years of experience in this We Provide wide range of Products useful for anyone and for any organisation for every occassion. Please choose from the given category you want to shop for
           </p>
         </div>
       </div>
-      <div class="container-fluid brand_item-container">
+      <div class="container">
         <div class="row">
-          <div class="col-md-6 col-sm-12" >
-            <div class="three">
-              <h1 style="text-align: left;">Leather Utilities</h1>
+          <div class="col-md-6" id="catCard">
+            <div class="card border-0">
+            <button type="button" class="btn btn-light" id="category" data-toggle="modal" data-target="#leatherModal">
+              Leather Utilities <img id="catImg" src="./images/diary3-removebg-preview.png">
+            </button>
+            <div class="modal fade" id="leatherModal" tabindex="-1" role="dialog" aria-labelledby="leatherModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-lg" role="document" >
+                <div class="modal-content" style="background-color: #f0f3f5;">
+                  <div class="modal-header" style="border-bottom:none">
+                    <h5 class="modal-title" id="exampleModalLabel" style="font-size: 27px;">Choose Category</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="container-fluid">
+                      <div class="d-flex justify-content-around .justify-content-md-center">
+                        <div class="card border-0" id="pdts" >
+                          <img class="card-img-top" id="pdtImg" src="./images/diary3-removebg-preview.png">
+                          <div class="card-body" style="padding:unset">
+                            <h5 class="card-title">Leather Diaries</h5>
+                            <h6>See more</h6>
+                          </div>
+                        </div>
+        
+                      <div class="card border-0" id="pdts" >
+                        <img class="card-img-top" id="pdtImg"  src="./images/Leather Keychains/168.jpg">
+                        <div class="card-body" style="padding:unset">
+                          <h5 class="card-title">Leather Keychains</h5>
+                          <h6>See more</h6>
+                        </div>
+                      </div>
+                      </div>
+                      <div class="d-flex justify-content-around">
+                      <div class="card border-0" id="pdts" >
+                        <img class="card-img-top" id="pdtImg"  src="./images/Leather Sets/2021301.png">
+                        <div class="card-body" style="padding:unset">
+                          <h5 class="card-title">Leather Sets</h5>
+                          <h6>See more</h6>
+                        </div>
+                      </div>
+        
+                      <div class="card border-0" id="pdts" >
+                        <img class="card-img-top" id="pdtImg"  src="./images/pens2-removebg-preview.png">
+                        <div class="card-body" style="padding:unset">
+                          <h5 class="card-title">Wallet Sets</h5>
+                          <h6>See more</h6>
+                        </div>
+                      </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-              <!-- <div class="card border-0" id="pdts" >
-                <div class="brand_img-box  item-1">
-                  <a href="">
-                    View More
-                  </a>
-                </div>
-                <div class="card-body" style="padding:unset">
-                  <h5 class="card-title">Best Diary</h5>
-                  <h6>Rs 200</h6>
-                </div>
-              </div> -->
-              
+            <!-- <div class="collapse" id="collapseLeather">
               <div class="row">
                 <div class="card border-0" id="pdts" >
                   <img class="card-img-top" id="pdtImg" src="./images/diary3-removebg-preview.png">
@@ -256,245 +296,237 @@
                 </div>
               </div>
               </div>
-          </div>
-          <div class="col-md-6 col-sm-12" >
-            <div class="three">
-              <h1 style="text-align: left;">Plastic Utilities</h1>
+            </div> -->
             </div>
-              <div class="row">
-                <div class="card border-0" id="pdts" >
-                  <img class="card-img-top" id="pdtImg" src="./images/Lunch Box/1.jpg">
-                  <div class="card-body" style="padding:unset">
-                    <h5 class="card-title">Lunch Boxes</h5>
-                    <h6>See more</h6>
+          </div>
+          <div class="col-md-6" id="catCard">
+            <div class="card border-0">
+            <button type="button" class="btn btn-light" id="category" data-toggle="modal" data-target="#plasticModal">
+              Plastic Utilities <img id="catImg" style="width: 120px;" src="./images/Lunch Box-removebg-preview.png">
+            </button>
+            </div>
+            <div class="modal fade" id="plasticModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-lg" role="document" >
+                <div class="modal-content" style="background-color: #f0f3f5;">
+                  <div class="modal-header" style="border-bottom:none">
+                    <h5 class="modal-title" id="exampleModalLabel" style="font-size: 27px;">Choose Category</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
                   </div>
-                </div>
-
-              <div class="card border-0" id="pdts" >
-                <img class="card-img-top" id="pdtImg"  src="./images/Acrylic Keychains/156.jpg">
-                <div class="card-body" style="padding:unset">
-                  <h5 class="card-title">Acrylic Keychains</h5>
-                  <h6>See more</h6>
-                </div>
-              </div>
-
-              <div class="card border-0" id="pdts" >
-                <img class="card-img-top" id="pdtImg"  src="./images/pens1-removebg-preview.png">
-                <div class="card-body" style="padding:unset">
-                  <h5 class="card-title">Pens Sets </h5>
-                  <h6>See more</h6>
-                </div>
-              </div>
-
-              <div class="card border-0" id="pdts" >
-                <img class="card-img-top" id="pdtImg"  src="./images/Household Uitlites/23.jpg">
-                <div class="card-body" style="padding:unset">
-                  <h5 class="card-title">Plastic Casserole</h5>
-                  <h6>See more</h6>
-                </div>
-              </div>
-
-              </div>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-md-6 col-xs-12">
-            <div class="three">
-              <h1 style="text-align: left;">Wooden Utilities</h1>
-            </div>
-            <div class="row">
-              <div class="card border-0" id="pdts" >
-                <img class="card-img-top" id="pdtImg" src="./images/wooden utilities/JP-01.jpg">
-                <div class="card-body" style="padding:unset">
-                  <h5 class="card-title">Pen Stands</h5>
-                  <h6>See more</h6>
-                </div>
-              </div>
-
-            <div class="card border-0" id="pdts" >
-              <img class="card-img-top" id="pdtImg"  src="./images/wooden utilities/K-1.jpg">
-              <div class="card-body" style="padding:unset">
-                <h5 class="card-title">Wooden Keychains</h5>
-                <h6>See more</h6>
-              </div>
-            </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-xs-12">
-            <div class="three">
-              <h1 style="text-align: left;">Calenders</h1>
-            </div>
-            <div class="row">
-              <div class="card border-0" id="pdts" >
-                <img class="card-img-top" id="pdtImg" src="./images/calender1.jpeg">
-                <div class="card-body" style="padding:unset">
-                  <h5 class="card-title">Paper Calenders</h5>
-                  <h6>See more</h6>
-                </div>
-              </div>
-
-            <div class="card border-0" id="pdts" >
-              <img class="card-img-top" id="pdtImg"  src="./images/wooden utilities/JP-62.jpg">
-              <div class="card-body" style="padding:unset">
-                <h5 class="card-title">Wooden Calenders</h5>
-                <h6>See more</h6>
-              </div>
-            </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-md-6 col-sm-12" >
-            <div class="three">
-              <h1 style="text-align: left;">Dairy and Notebooks</h1>
-            </div>
-              
-              <div class="row">
-                <div class="card border-0" id="pdts" >
-                  <img class="card-img-top" id="pdtImg" src="./images/diary3-removebg-preview.png">
-                  <div class="card-body" style="padding:unset">
-                    <h5 class="card-title">Leather Diaries</h5>
-                    <h6>See more</h6>
-                  </div>
-                </div>
-
-              <div class="card border-0" id="pdts" >
-                <img class="card-img-top" id="pdtImg"  src="./images/Hard Bound Diaries/2022001.jpg">
-                <div class="card-body" style="padding:unset">
-                  <h5 class="card-title">Hard Bound Dairies</h5>
-                  <h6>See more</h6>
-                </div>
-              </div>
-              </div>
-          </div>
-          <div class="col-md-6 col-sm-12" >
-            <div class="three">
-              <h1 style="text-align: left;">Printing Solutions</h1>
-            </div>
-              
-              <div class="row">
-                <div class="card border-0" id="pdts" >
-                  <img class="card-img-top" id="pdtImg" src="./images/wooden utilities/JP-88.jpg">
-                  <div class="card-body" style="padding:unset">
-                    <h5 class="card-title">Printed Clipboards</h5>
-                    <h6>See more</h6>
-                  </div>
-                </div>
-
-                <div class="card border-0" id="pdts" >
-                  <img class="card-img-top" id="pdtImg" src="./images/wooden utilities/JP-98.jpg">
-                  <div class="card-body" style="padding:unset">
-                    <h5 class="card-title">Printed Wooden Stands</h5>
-                    <h6>See more</h6>
+                  <div class="modal-body">
+                    <div class="container-fluid">
+                      <div class="d-flex justify-content-around">
+                        <div class="card border-0" id="pdts" >
+                          <img class="card-img-top" id="pdtImg" src="./images/Lunch Box/1.jpg">
+                          <div class="card-body" style="padding:unset">
+                            <h5 class="card-title">Lunch Boxes</h5>
+                            <h6>See more</h6>
+                          </div>
+                        </div>
+        
+                      <div class="card border-0" id="pdts" >
+                        <img class="card-img-top" id="pdtImg"  src="./images/Acrylic Keychains/156.jpg">
+                        <div class="card-body" style="padding:unset">
+                          <h5 class="card-title">Acrylic Keychains</h5>
+                          <h6>See more</h6>
+                        </div>
+                      </div>
+                      </div>
+                      <div class="d-flex justify-content-around">
+                        <div class="card border-0" id="pdts" >
+                          <img class="card-img-top" id="pdtImg"  src="./images/pens1-removebg-preview.png">
+                          <div class="card-body" style="padding:unset">
+                            <h5 class="card-title">Pens Sets </h5>
+                            <h6>See more</h6>
+                          </div>
+                        </div>
+          
+                        <div class="card border-0" id="pdts" >
+                          <img class="card-img-top" id="pdtImg"  src="./images/Household Uitlites/23.jpg">
+                          <div class="card-body" style="padding:unset">
+                            <h5 class="card-title">Plastic Casserole</h5>
+                            <h6>See more</h6>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
+            </div>
           </div>
-        </div>
         </div>
       </div>
 
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6" id="catCard">
+            <div class="card border-0">
+            <button type="button" class="btn btn-light" id="category" data-toggle="modal" data-target="#woodenModal">
+              Wooden Utilities <img id="catImg" src="./images/JP-02-removebg-preview.png">
+            </button>
+            <div class="modal fade" id="woodenModal" tabindex="-1" role="dialog" aria-labelledby="woodenLabel" aria-hidden="true">
+              <div class="modal-dialog modal-lg" role="document" >
+                <div class="modal-content" style="background-color: #f0f3f5;">
+                  <div class="modal-header" style="border-bottom:none">
+                    <h5 class="modal-title" id="exampleModalLabel" style="font-size: 27px;">Choose Category</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="container-fluid">
+                      <div class="d-flex justify-content-around">
+                        <div class="card border-0" id="pdts" >
+                          <img class="card-img-top" id="pdtImg" src="./images/wooden utilities/JP-01.jpg">
+                          <div class="card-body" style="padding:unset">
+                            <h5 class="card-title">Pen Stands</h5>
+                            <h6>See more</h6>
+                          </div>
+                        </div>
+          
+                      <div class="card border-0" id="pdts" >
+                        <img class="card-img-top" id="pdtImg"  src="./images/wooden utilities/K-1.jpg">
+                        <div class="card-body" style="padding:unset">
+                          <h5 class="card-title">Wooden Keychains</h5>
+                          <h6>See more</h6>
+                        </div>
+                      </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+          <div class="col-md-6" id="catCard">
+            <div class="card border-0">
+            <button type="button" class="btn btn-light" id="category" data-toggle="modal" data-target="#calendersModal">
+              Calenders <img id="catImg" src="./images/calender1-removebg-preview.png">
+            </button>
+            </div>
+            <div class="modal fade" id="calendersModal" tabindex="-1" role="dialog" aria-labelledby="calendersModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-lg" role="document" >
+                <div class="modal-content" style="background-color: #f0f3f5;">
+                  <div class="modal-header" style="border-bottom:none">
+                    <h5 class="modal-title" id="exampleModalLabel" style="font-size: 27px;">Choose Category</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="container-fluid">
+                      <div class="d-flex justify-content-around">
+                        <div class="card border-0" id="pdts" >
+                          <img class="card-img-top" id="pdtImg" src="./images/calender1.jpeg">
+                          <div class="card-body" style="padding:unset">
+                            <h5 class="card-title">Paper Calenders</h5>
+                            <h6>See more</h6>
+                          </div>
+                        </div>
+          
+                      <div class="card border-0" id="pdts" >
+                        <img class="card-img-top" id="pdtImg"  src="./images/wooden utilities/JP-62.jpg">
+                        <div class="card-body" style="padding:unset">
+                          <h5 class="card-title">Wooden Calenders</h5>
+                          <h6>See more</h6>
+                        </div>
+                      </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6" id="catCard">
+            <div class="card border-0">
+            <button type="button" class="btn btn-light" id="category" data-toggle="modal" data-target="#dairyModal">
+              Dairy and Notebooks <img id="catImg" src="./images/diary2-removebg-preview.png">
+            </button>
+            <div class="modal fade" id="dairyModal" tabindex="-1" role="dialog" aria-labelledby="dairyModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-lg" role="document" >
+                <div class="modal-content" style="background-color: #f0f3f5;">
+                  <div class="modal-header" style="border-bottom:none">
+                    <h5 class="modal-title" id="exampleModalLabel" style="font-size: 27px;">Choose Category</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="container-fluid">
+                      <div class="d-flex justify-content-around">
+                        <div class="card border-0" id="pdts" >
+                          <img class="card-img-top" id="pdtImg" src="./images/diary3-removebg-preview.png">
+                          <div class="card-body" style="padding:unset">
+                            <h5 class="card-title">Leather Diaries</h5>
+                            <h6>See more</h6>
+                          </div>
+                        </div>
         
-<!-- 
-        <div class="brand_item-box">
-          <div class="brand_img-box  item-2">
-            <a href="">
-              View More
-            </a>
+                      <div class="card border-0" id="pdts" >
+                        <img class="card-img-top" id="pdtImg"  src="./images/Hard Bound Diaries/2022001.jpg">
+                        <div class="card-body" style="padding:unset">
+                          <h5 class="card-title">Hard Bound Dairies</h5>
+                          <h6>See more</h6>
+                        </div>
+                      </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
           </div>
-          <div class="brand_detail-box">
-            <h5>
-              Rs<span> 50 </span>
-            </h5>
-            <h6 class="">
-              Best Diary
-            </h6>
-          </div>
-        </div>
-
-        <div class="brand_item-box">
-          <div class="brand_img-box  item-3">
-            <a href="">
-              View More
-            </a>
-          </div>
-          <div class="brand_detail-box">
-            <h5>
-              Rs<span> 60 </span>
-            </h5>
-            <h6 class="">
-              Best Diary
-            </h6>
-          </div>
-        </div>
-
-        <div class="brand_item-box">
-          <div class="brand_img-box  item-4">
-            <a href="">
-              View More
-            </a>
-          </div>
-          <div class="brand_detail-box">
-            <h5>
-              Rs<span> 70 </span>
-            </h5>
-            <h6 class="">
-              Best Diary
-            </h6>
-          </div>
-        </div>
-
-        <div class="brand_item-box">
-          <div class="brand_img-box  item-5">
-            <a href="">
-              View More
-            </a>
-          </div>
-          <div class="brand_detail-box">
-            <h5>
-              Rs<span> 80 </span>
-            </h5>
-            <h6 class="">
-              Best Diary
-
-            </h6>
+          <div class="col-md-6" id="catCard">
+            <div class="card border-0">
+            <button type="button" class="btn btn-light" id="category" data-toggle="modal" data-target="#printModal">
+              Printing Solutions <img id="catImg" style="width: 120px;" src="./images/JP-98-removebg-preview.png">
+            </button>
+            </div>
+            <div class="modal fade" id="printModal" tabindex="-1" role="dialog" aria-labelledby="printModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-lg" role="document" >
+                <div class="modal-content" style="background-color: #f0f3f5;">
+                  <div class="modal-header" style="border-bottom:none">
+                    <h5 class="modal-title" id="exampleModalLabel" style="font-size: 27px;">Choose Category</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="container-fluid">
+                      <div class="d-flex justify-content-around">
+                        <div class="card border-0" id="pdts" >
+                          <img class="card-img-top" id="pdtImg" src="./images/wooden utilities/JP-88.jpg">
+                          <div class="card-body" style="padding:unset">
+                            <h5 class="card-title">Printed Clipboards</h5>
+                            <h6>See more</h6>
+                          </div>
+                        </div>
+        
+                        <div class="card border-0" id="pdts" >
+                          <img class="card-img-top" id="pdtImg" src="./images/wooden utilities/JP-98.jpg">
+                          <div class="card-body" style="padding:unset">
+                            <h5 class="card-title">Printed Wooden Stands</h5>
+                            <h6>See more</h6>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="brand_item-box">
-          <div class="brand_img-box  item-6">
-            <a href="">
-              View More
-            </a>
-          </div>
-          <div class="brand_detail-box">
-            <h5>
-              Rs<span> 80 </span>
-            </h5>
-            <h6 class="">
-              Best Diary
-
-            </h6>
-          </div>
-        </div>
-        <div class="brand_item-box">
-          <div class="brand_img-box  item-7">
-            <a href="">
-              View More
-            </a>
-          </div>
-          <div class="brand_detail-box">
-            <h5>
-              Rs<span> 80 </span>
-            </h5>
-            <h6 class="">
-              Best Diary
-
-            </h6>
-          </div>
-        </div> -->
       </div>
 
     </section>
