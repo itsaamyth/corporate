@@ -910,6 +910,11 @@ h1 em {
   padding: 50px;
 }
 
+footer{
+  background-color: black;
+  color: white;
+  padding: 50px;
+}
 
 @media (max-width: 768px) {
   #category{
@@ -942,5 +947,8 @@ h1 em {
   }
   #testimonials{
     padding: unset;
+  }
+  footer{
+    padding: 20px;
   }
   }
