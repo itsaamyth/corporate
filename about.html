@@ -40,7 +40,8 @@
       <div class="container-fluid" style="padding-left: unset;padding-right: unset;">
         <nav class="navbar navbar-expand-lg custom_nav-container pt-3" style="background-color: black;color: white;">
           <a class="navbar-brand" href="index.html">
-            <span style="color: white;">
+            <img src="images/logo-removebg-preview.png" alt="">
+            <span style="color: white">
               Kiran Enterprises
             </span>
           </a>
@@ -53,17 +54,24 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <div class="d-flex ml-auto flex-column flex-lg-row align-items-center">
               <ul class="navbar-nav  ">
-                <li class="nav-item active">
-                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                <!-- <li class="nav-item active">
+                  <a style="font-weight: bold;border-bottom: 2px solid white;" class="nav-link" href="index.html"> Home <span class="sr-only">(current)</span></a>
+                </li>  -->
+                <li class="nav-item" >
+                  <a class="nav-link" href="index.html"> Home </a>
+                  <div id="underline" ></div>
+                </li>
+                <li class="nav-item" id="active">
+                  <a class="nav-link" href="about.html"> About </a>
+                  <div id="underline"div>
                 </li>
                 <li class="nav-item">
-                  <a style="font-weight: bold;border-bottom: 2px solid white;" class="nav-link" href="about.html"> About </a>
-                </li> 
-                <li class="nav-item">
                   <a class="nav-link" href="watch.html"> Our Products </a>
+                  <div id="underline"></div>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="contact.html">Contact us</a>
+                  <div id="underline"div>
                 </li>
               </ul>
             </div>
@@ -568,6 +576,7 @@
 
   <br><br><br>
   <!-- info section -->
+
   <section class="info_section layout_padding">
     <div class="container">
       <div class="info_items">
@@ -578,7 +587,7 @@
             </div>
             <div class="detail-box">
               <p>
-                Lorem Ipsum is simply dummy text
+                Kh no.-288 , Transport Nagar Lucknow , UP-226002
               </p>
             </div>
           </div>
@@ -602,7 +611,7 @@
             </div>
             <div class="detail-box">
               <p>
-                demo@gmail.com
+                infomwtrading@gmail.com
               </p>
             </div>
           </div>
@@ -610,8 +619,6 @@
       </div>
     </div>
   </section>
-
-
 
   <script>
     (function (w, d, s, u) {
@@ -639,21 +646,12 @@
     </script>
     
 
-  <!-- end info_section -->
-
-  <!-- footer section -->
-  <!-- <section class="container-fluid footer_section">
-    <p>
-      © 2020 All Rights Reserved
-    </p>
-  </section> -->
-  <!-- footer section -->
-
+  <a href="#" id="scroll" style="display: none;"><span></span></a>
   <footer class="footer">
     <div class="container">
       <div class="row">
       <div class="col-md-5">
-        <h4>Kiran Enterprises</h4>
+        <div style="display: flex;"> <img src="images/logo-removebg-preview.png" style="width: 45px;margin-top: -5px;margin-right: 5px;" alt=""><h4>Kiran Enterprises</h4></div>
         <p style="text-align: justify;color: #8c8c8c;">Based in Lucknow, Uttar Pradesh, <span style="font-weight:bold;"> Kiran Enterprises </span>was established in the year 2000, With a prime 
           focus of meeting the expectation of all the business entities, By providing them with innovative 
           gifiting products and quality printing Services. Which ultimately leads in enhancing their brand.</p>
@@ -664,22 +662,23 @@
       <div class="col-md-3">
         <h5>Other pages</h5>
         <ul style="list-style: none;float: left;padding: 0;margin: 0;color: #8c8c8c;">
-          <li style="margin-top:10px;margin-bottom: 10px;">About Us</li>
-          <li style="margin-top:10px;margin-bottom: 10px;">Our Products</li>
-          <li style="margin-top:10px;margin-bottom: 10px;">Contact Us</li>
+          <a href="index.html"><li style="margin-top:10px;margin-bottom: 10px;color: #8c8c8c;">Home</li></a>
+          <a href="about.html"><li style="margin-top:10px;margin-bottom: 10px;color:#8c8c8c;">About Us</li></a>
+          <a href="watch.html"><li style="margin-top:10px;margin-bottom: 10px;color: #8c8c8c;">Our Products</li></a>
+          <a href="contact.html"><li style="margin-top:10px;margin-bottom: 10px;color: #8c8c8c;">Contact Us</li></a>
         </ul>
       </div>
       <div class="col-md-3"> 
         <h5>Contact Us</h5>
         <ul style="list-style: none;float: left;padding: 0;margin: 0;color: #8c8c8c;">
           <li style="display: flex;font-size: 20px;margin-top: 10px;margin-bottom: 10px;" >
-            <i class="fas fa-map-marker-alt" style="color: #007bff;"></i>  <h6 style="margin-left: 10px;">Lucknow , Uttarpradesh</h6>
+            <i class="fas fa-map-marker-alt" style="color: #007bff;"></i>  <h6 style="margin-left: 10px;">Kh no.-288 , Transport Nagar Lucknow , UP-226002</h6>
           </li>
           <li style="display: flex;font-size: 20px;margin-top: 10px;margin-bottom: 10px;" >
-            <i class="fas fa-phone-alt" style="color: #007bff;"></i>  <h6 style="margin-left: 10px;">+01 12345678</h6>
+            <i class="fas fa-phone-alt" style="color: #007bff;"></i>  <h6 style="margin-left: 10px;">+91 9161616100</h6>
           </li>
           <li style="display: flex;font-size: 20px;margin-top: 10px;margin-bottom: 10px;" >
-            <i class="fas fa-envelope" style="color: #007bff;"></i>  <h6 style="margin-left: 10px;">info@kiranenterprises.com</h6>
+            <i class="fas fa-envelope" style="color: #007bff;"></i>  <h6 style="margin-left: 10px;">infomwtrading@gmail.com</h6>
           </li>
         </ul>
 
@@ -687,7 +686,7 @@
       </div>
     </div>
     <div class="container">
-      <p style="text-align: center;margin-top: 20px;">Copyrights ©2000 - 2021 Kiran Enterprises.
+      <p style="text-align: center;margin-top: 20px;">Copyrights ©2000 - 2021 Kiran Enterprises. &nbsp;
         Designed & Developed By AdelSocial.</p>
     </div>
   </footer>

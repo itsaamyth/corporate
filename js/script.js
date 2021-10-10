@@ -25,3 +25,22 @@ jQuery("#carousel3").owlCarousel({
         }
     }
   });
+
+  $(document).ready(function(){ 
+    $(window).scroll(function(){ 
+        if ($(this).scrollTop() > 100) { 
+            $('#scroll').fadeIn(); 
+        } else { 
+            $('#scroll').fadeOut(); 
+        } 
+    }); 
+    $('#scroll').click(function(){ 
+        $("html, body").animate({ scrollTop: 0 }, 600); 
+        return false; 
+    }); 
+});
+
+// $('.nav-item').on('click', function() {
+// 	$('#active-link').removeClass('active-link');
+// 	$(this).addClass('active-link');
+// });
